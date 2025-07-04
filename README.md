@@ -1,12 +1,23 @@
-# React + Vite
+setup:
+vite react app
+tailwind css
+luxon
+react router
+react icons 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+ What you implemented:
+ first take weeks and time from the luxon.use in calender.
+ hardcord the doctors and treatments so user can select the on input fileds.
+ also hardcode the time.make 30 min slots which can help me to not overlay they slots.
+ add modal for user to ender the record.it can now enter name and select treatment and patient option given hardcoded.
+ use tis modal same for edit purpose.
+ user can perform curd operation
+ user can also do filtraion on basis of doctors and treatments.
+ aslo have functionalty of toggle btwn ligght and darkmode
+ in the end aslo use local storage to store the data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  Known issues:
+  isuue is when the date pass. record is still there on calender.it has to me removed or marked as completed.
+  and what if user can take 15 min 04 less then 30 min appoitment.
